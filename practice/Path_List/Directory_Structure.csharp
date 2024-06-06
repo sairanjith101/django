@@ -1,0 +1,37 @@
+myproject/
+│
+├── manage.py
+├── myproject/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+│
+├── myapp/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+│
+├── static/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── scripts.js
+│   └── images/
+│       └── logo.png
+│
+├── staticfiles/  # Only used after running `collectstatic` in production
+│
+├── media/
+│   └── uploads/
+│       └── example.jpg
+│
+├── templates/
+│   └── base.html
+│
+└── db.sqlite3
